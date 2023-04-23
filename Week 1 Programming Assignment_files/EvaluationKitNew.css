@@ -1,0 +1,50 @@
+@import 'https://mercer.evaluationkit.com/canvas/css';
+
+/* Add opacity to login form if using a background image */
+.ic-Login__content {
+ opacity: .9;
+    } 
+ 
+/* Center logo on login page...modify/remove if using public course search index */ 
+.ic-Login-header .ic-Login-header__logo img {
+    max-width: 290px;
+/*    margin-left: 100px;   */
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+    
+    
+    
+.ic-Login-header__links {
+    display: none;
+    }
+    
+  /*  
+.ic-Login__container {
+    margin-left: auto;    
+    margin-right: auto;
+ }
+   */ 
+
+/* Use this if adding a background image */  
+.ic-brand-Login-body-bgd-color {
+background-color:none;
+}
+        
+/*  Change color of muted assignments in gradebook (because it is very light in color)  */
+/*
+.muted {
+color: #CC8400;
+}
+*/
+
+/*  CSS Override to eliminate text at bottom of login page  .ic-Login-footer  */
+/* no longer needed unless you don't want the footer on the dashboard */
+/* #footer { display:none !important; }   */
+
+
+
+
+/* required if hiding rubric from student view...use with hide_rubrics.js */
+/* #content { display:none; } */  
+
